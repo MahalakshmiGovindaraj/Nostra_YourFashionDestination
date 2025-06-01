@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Google style sheet for fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Poppins&family=Young+Serif&display=swap"
+        rel="stylesheet">
+    <!-- Our style sheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!--Link Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+
+</head>
+
+<body>
+    <script src="./script.js"></script>
+    <!-- discount bar  Section-->
+    <div class="discount--section" id="discount--section">
+        <p class="discount--section__para">Sign Up and <b>GET 20% OFF</b> for your first Order
+            <i class="fa-solid fa-xmark" id="discount--section__close"></i>
+        </p>
+    </div>
+    <main class="scroll-hidden">
+
+        <!-- Navbar Section -->
+        <div class="navbar--section">
+
+            <div class="navbar--section__heading">
+                <h2><b>Nostra</b></h2>
+            </div>
+            <div class="navbar--section__categories">
+                <a href="./index.html">Home</a>
+                <a href="#new_arrival_section">New Arrival</a>
+                <a href="#most_wanted_section">Most Wanted</a>
+                <a href="./collections.html">Collections</a>
+                <a href="./Contact.html">Contact us</a>
+            </div>
+            <div class="navbar--section__menu">
+                <i class="fa-solid fa-bars" id="menu_id"></i>
+            </div>
+        </div>
+
+        <!-- navbar popup -->
+
+        <div class="navbar--section__popup hidden" id="popup">
+            <p style="text-align: right; cursor: pointer;">
+                <i id="close" class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="links">
+                <p class="link"><a href="./index.html">Home</a></p>
+                <p class="link"><a href="#new_arrival_section">New Arrival</a></p>
+                <p class="link"><a href="#most_wanted_section">Most Wanted</a></p>
+                <p class="link"><a href="./collections.html">Collections</a></p>
+                <p class="link"><a href="./Contact.html">Contact us</a></p>
+            </div>
+
+        </div>
+        <!-- Image section -->
+
+        <div class="slider__image">
+            <div class="slider--left__side">
+                <i class="fa-solid fa-angle-left" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="slider--image__content">
+                <h1>Level up your style with our</h1>
+                <h4>Summer Collections</h4>
+                <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+
+            <div class="image--container">
+                <img class="slider-image" src="./images/slider-one.png" alt="">
+            </div>
+
+            <div class="slider--right__side">
+                <i class="fa-solid fa-angle-right" style="color: #ffffff;"></i>
+            </div>
+        </div>
+        <!-- Brand section -->
+        <div class="brand--section">
+            <div class="brand--section__heading">
+                <h3><b>Brands</b></h3>
+            </div>
+            <div class="brand--section__categories">
+                <div>
+                    <img src="./images/behance.png">
+                    <p>Puma</p>
+                </div>
+                <div>
+                    <img src="./images/adidas.png">
+                    <p>Addidas</p>
+                </div>
+                <div>
+                    <img src="./images/leaves.png">
+                    <p>Leaves</p>
+                </div>
+                <div>
+                    <img src="./images/simple.png">
+                    <p>Simple</p>
+                </div>
+                <div>
+                    <img src="./images/twitch.png">
+                    <p>Twitch</p>
+                </div>
+                <div>
+                    <img src="./images/behance.png">
+                    <p>Behance</p>
+                </div>
+                <div>
+                    <img src="./images/leaves.png">
+                    <p>Leaves</p>
+                </div>
+            </div>
+        </div>
+        <!-- Experience section -->
+        <div class="user--exp__section">
+            <h1>We Provide Best<br>
+                Customer Experiences</h1>
+            <p>|| We ensure that our customer have the best shopping experience</p>
+        </div>
+        <div class="user--exp__features">
+            <div>
+                <i style="font-size: 2vw" class="fa-solid fa-circle-check fa-2xl"></i>
+                <h4>Original Products</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestiae magnam, rem officia tenetur
+                    accusamus magni officiis</p>
+            </div>
+            <div>
+                <i style="font-size: 2vw" class="fa-solid fa-face-smile fa-2xl"></i>
+                <h4>Satisfaction Guarantee</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestiae magnam, rem officia tenetur
+                    accusamus magni officiis</p>
+            </div>
+            <div>
+                <i style="font-size: 2vw" class="fa-solid fa-broom fa-2xl"></i>
+                <h4>New Arrival Everyday</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestiae magnam, rem officia tenetur
+                    accusamus magni officiis</p>
+            </div>
+            <div>
+                <i style="font-size: 2vw" class="fa-solid fa-truck-moving fa-2xl"></i>
+                <h4>Fast & Free Shipping</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro molestiae magnam, rem officia tenetur
+                    accusamus magni officiis</p>
+            </div>
+        </div>
+        <!-- New arrival section -->
+        <section id="new_arrival_section">
+            <div class="arrival--section">
+                <h3>New Arrival</h3>
+                <div class="arrival--section__collections">
+                    <div class="collections">
+                        <img src="./images/dress1.jpg">
+                        <button class="arrival--section__button">Shop Now <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                    <div class="collections">
+                        <img src="./images/dress2.jpg">
+                        <button class="arrival--section__button">Shop Now <i
+                                class="fa-solid fa-arrow-right"></i></button>
+
+                    </div>
+                    <div class="collections">
+                        <img src="./images/dress3.jpg">
+                        <button class="arrival--section__button">Shop Now <i
+                                class="fa-solid fa-arrow-right"></i></button>
+
+                    </div>
+                    <div class="collections">
+                        <img src="./images/dress4.jpg">
+                        <button class="arrival--section__button">Shop Now <i
+                                class="fa-solid fa-arrow-right"></i></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Most wanted section -->
+        <section id="most_wanted_section">
+            <div class="wanted--section">
+                <h3>Most Wanted</h3>
+                <div class="wanted--section__collections">
+                    <div class="wanted--collections">
+                        <img src="./images/dress4.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+
+                    </div>
+                    <div class="wanted--collections">
+                        <img src="./images/dress3.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+
+                    </div>
+                    <div class="wanted--collections">
+                        <img src="./images/dress2.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+                    </div>
+                    <div class="wanted--collections">
+                        <img src="./images/dress1.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+                    </div>
+                    <div class="wanted--collections" id="large">
+                        <img src="./images/dress5.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+                    </div>
+                    <div class="wanted--collections" id="large">
+                        <img src="./images/dress6.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+                    </div>
+                    <div class="wanted--collections" id="large">
+                        <img src="./images/dress7.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+                    </div>
+
+                    <div class="wanted--collections" id="large">
+                        <img src="./images/dress8.jpg">
+                        <button class="wanted--section__button">Sale</button>
+                        <button id="like__heart"><i class="fa-regular fa-heart" onclick="toggleLike(this)"
+                                style="font-size: 3vw;"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- flash sale -->
+        <div class="flash--sale">
+            <div class="flash--sale-img">
+                <img src="./images/offer.jpg" alt="">
+            </div>
+            <div class="flash--sale-text">
+                <h2>Limited Offer</h2>
+                <h4>35% OFF on this for the first 30 Customers</h4>
+                <button> Shop Now <i class="fa-solid fa-arrow-right"></i> </button>
+            </div>
+        </div>
+
+
+
+        <!-- subscribe section -->
+        <div class="subscribe--section">
+            <p class="font__one"><b>Join Our News Letter</b></p>
+            <p class="font__two">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+            <input type="text" class="subscribe__text"><br>
+            <button class="subscribe__button">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+
+        </div>
+    </main>
+    <!-- Footer section -->
+    <div class="footer--section">
+        <h3>Nostra</h3>
+        <p class="footer--section__desc">The Standard chunk of Lorem ipsum used since the 1500s is reprodused below for
+            those
+            interest</p>
+        <div class="social_icons">
+            <i style="font-size: 2vw; padding-left:20px" class="fa-brands fa-instagram"></i>
+            <i style="font-size: 2vw" class="fa-brands fa-twitter"></i>
+            <i style="font-size: 2vw" class="fa-brands fa-facebook"></i>
+        </div>
+        <p class="footer--section__desc">@ 2023 Nostra.com</p>
+    </div>
+
+
+
+
+</body>
+
+</html>
